@@ -29,7 +29,7 @@ header.nav{background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);
 h1{font-size:clamp(1.45rem,3.4vw,2.05rem);font-weight:900;margin:13px 0 8px}
 .hero p{color:var(--muted);margin:0;max-width:720px}
 .byline{margin-top:11px;display:inline-flex;align-items:center;gap:8px;color:#475467;font-weight:700;font-size:.85rem;text-decoration:none}
-.byline .av{width:23px;height:23px;border-radius:50%;background:var(--accent);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:900}
+.byline .av{width:24px;height:24px;border-radius:50%;object-fit:cover}
 .byline u{color:var(--accent);text-decoration:none;border-bottom:1px dashed var(--accent)}
 .compliance{margin-top:14px;background:#fff4f4;border:1px solid #fdd;color:#b42318;font-weight:800;padding:10px 14px;border-radius:8px;font-size:.9rem}
 .metrics{display:flex;gap:22px;margin-top:18px;flex-wrap:wrap}
@@ -90,7 +90,7 @@ main{padding-bottom:30px}
 .afeng{margin:24px 0 6px}
 .afeng-card{background:linear-gradient(135deg,var(--soft),#fff);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:var(--radius);padding:22px}
 .afeng-top{display:flex;align-items:center;gap:13px;margin-bottom:13px}
-.afeng-av{width:50px;height:50px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:900;flex:0 0 auto}
+.afeng-av{width:74px;height:74px;border-radius:50%;object-fit:cover;flex:0 0 auto;border:2px solid #fff;box-shadow:0 2px 8px rgba(16,24,40,.18)}
 .afeng-name{font-weight:900;font-size:1.1rem}
 .afeng-role{color:var(--muted);font-weight:700;font-size:.86rem}
 .afeng-slogan{margin:0 0 12px;font-weight:600}
@@ -119,10 +119,10 @@ footer a{color:var(--accent);font-weight:800;text-decoration:none}
 <span class="kicker">⚡ 保險業務的業務飛輪</span>
 <h1>保險業務 AI 話術＆提示詞產生器</h1>
 <p>300+ 個保險業務實戰提示詞，依業務動作分類（開發、約訪、面談、健診、提案、促成、保戶服務、增員、產險、團險、法遵…），內建招攬合規護欄。</p>
-<a class="byline" href="#afeng"><span class="av">峰</span>by 阿峰老師（AI峰哥）・企業 AI 實戰培訓・<u>看老師能怎麼幫你的團隊</u></a>
+<a class="byline" href="#afeng"><img class="av" src="afeng.jpg" alt="阿峰老師">by 阿峰老師（AI峰哥）・企業 AI 實戰培訓・<u>看老師能怎麼幫你的團隊</u></a>
 <div class="compliance">⚠️ 合規提醒：產出內容為草稿，禁用「保證／最高／穩賺／節稅」等字眼，理賠核保不得預先承諾；正式對外（DM／社群／話術）前須經主管或法遵單位覆核。</div>
 <div class="metrics"><div class="metric"><strong id="mCount">0</strong><span>實戰提示詞</span></div><div class="metric"><strong id="mCat">0</strong><span>分類</span></div><div class="metric"><strong>三步驟</strong><span>選 → 填 → 複製</span></div></div>
-<br><a class="wishbtn" href="https://forms.gle/REb6je78F11Y8zJB7" target="_blank" rel="noopener">💡 找不到想要的？點我許願，老師會持續新增</a>
+<br><a class="wishbtn" href="https://forms.gle/REb6je78F11Y8zJB7" target="_blank" rel="noopener">💡 找不到想要的？點我許願，老師會持續新增</a> <a class="wishbtn" style="background:#06c755" href="https://line.me/ti/g2/o6oRaGIHTzZ1nEofxnT9Rbv7_ZHAX-rylbJfKA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" rel="noopener">💬 加入阿峰老師 LINE 社群</a>
 </div></div>
 
 <div class="wrap">
@@ -151,7 +151,7 @@ footer a{color:var(--accent);font-weight:800;text-decoration:none}
 </section>
 
 <section class="afeng" id="afeng"><div class="afeng-card">
-<div class="afeng-top"><div class="afeng-av">峰</div><div><div class="afeng-name">阿峰老師（黃敬峰・AI峰哥）</div><div class="afeng-role">企業 AI 實戰培訓專家</div></div></div>
+<div class="afeng-top"><img class="afeng-av" src="afeng.jpg" alt="阿峰老師（黃敬峰）"><div><div class="afeng-name">阿峰老師（黃敬峰・AI峰哥）</div><div class="afeng-role">企業 AI 實戰培訓專家</div></div></div>
 <p class="afeng-slogan">「會用、懂用、好用、每天用」——讓 AI 變成<b>業務團隊（通訊處）</b>每天在用的工具，不是聽完就忘的演講。</p>
 <ul class="afeng-bullets">
 <li>帶企業與單位做「真的用得上」的 AI 實戰內訓，學員上完課<b>當週就用在工作上</b></li>
@@ -160,7 +160,7 @@ footer a{color:var(--accent);font-weight:800;text-decoration:none}
 </ul>
 <div class="afeng-proof">服務過 國泰、工研院、英業達 等企業、政府機關，與製造／金融／保險第一線團隊</div>
 <div class="afeng-demo">💡 你現在用的這個工具，就是阿峰老師幫企業做的其中一個。想要你們公司「自己產業、自己產品」的專屬版？</div>
-<div class="afeng-cta"><a class="btn primary" href="mailto:ai@autolab.cloud?subject=想聊聊團隊 AI 實戰內訓&body=阿峰老師您好，我們是 ____（公司／單位），想了解 AI 實戰內訓與專屬工具，方便聊聊嗎？">想幫團隊導入 AI？跟阿峰老師聊聊</a><span class="afeng-contact">ai@autolab.cloud ・ 0976-715-102 ・ <a href="https://www.autolab.cloud" target="_blank" rel="noopener">autolab.cloud</a></span></div>
+<div class="afeng-cta"><a class="btn line" href="https://line.me/ti/g2/o6oRaGIHTzZ1nEofxnT9Rbv7_ZHAX-rylbJfKA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" target="_blank" rel="noopener">💬 加入阿峰老師 LINE 社群</a><a class="btn primary" href="mailto:ai@autolab.cloud?subject=想聊聊團隊 AI 實戰內訓&body=阿峰老師您好，我們是 ____（公司／單位），想了解 AI 實戰內訓與專屬工具，方便聊聊嗎？">想幫團隊導入 AI？跟阿峰老師聊聊</a><span class="afeng-contact">ai@autolab.cloud ・ 0976-715-102 ・ <a href="https://www.autolab.cloud" target="_blank" rel="noopener">autolab.cloud</a></span></div>
 </div></section>
 
 </div>
