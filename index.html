@@ -101,6 +101,16 @@ main{padding-bottom:30px}
 .afeng-cta{display:flex;align-items:center;gap:13px;flex-wrap:wrap}
 .afeng-contact{color:var(--muted);font-weight:700;font-size:.84rem}
 .afeng-contact a{color:var(--accent);text-decoration:none}
+.clients{margin:24px 0 6px}
+.clients-h{font-weight:900;font-size:1.08rem;margin:0 0 4px}
+.clients-sub{color:var(--muted);font-size:.88rem;font-weight:700;margin:0 0 14px}
+.logo-wall{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:26px;padding:18px 16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.logo-wall img{height:44px;max-width:128px;object-fit:contain;filter:grayscale(100%);opacity:.72;transition:.15s}
+.logo-wall img:hover{filter:none;opacity:1}
+.cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:12px}
+.case{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px 14px}
+.case b{display:block;font-weight:800;margin-bottom:3px;color:var(--ink)}
+.case span{color:var(--muted);font-size:.85rem;font-weight:700}
 .toast{position:fixed;left:50%;transform:translateX(-50%) translateY(12px);bottom:24px;background:#101828;color:#fff;padding:12px 18px;border-radius:9px;font-weight:800;opacity:0;transition:.2s;z-index:50}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 footer{background:#fff;border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.9rem}
@@ -150,6 +160,7 @@ footer a{color:var(--accent);font-weight:800;text-decoration:none}
 <div class="ai-jump"><span class="jl">複製後 → 貼到任一個 AI：</span><a class="btn ghost" href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT ↗</a><a class="btn ghost" href="https://gemini.google.com/app" target="_blank" rel="noopener">Gemini ↗</a><a class="btn ghost" href="https://claude.ai/new" target="_blank" rel="noopener">Claude ↗</a><a class="btn line" id="lineShare" href="#" target="_blank" rel="noopener">📤 分享給同事</a></div>
 </section>
 
+<section class="clients"><div class="clients-h">阿峰老師服務過的保險／金融相關單位</div><div class="clients-sub">同業團隊都在用 AI 加速開發、健診、提案 —— 想讓你的通訊處也上手？往下找老師聊聊。</div><div class="logo-wall"><img src="logos/cathay-life.svg" alt="國泰人壽" loading="lazy"><img src="logos/capital.png" alt="群益投信" loading="lazy"><img src="logos/fsc.png" alt="金管會" loading="lazy"></div><div class="cases"><div class="case"><b>國泰人壽</b><span>昕陽／鴻鑫／羅勝／桃園／中和／土城／宜蘭／昇曜 等 8＋ 通訊處 AI 實戰培訓</span></div><div class="case"><b>群益投信</b><span>投信金融團隊 AI 培訓</span></div><div class="case"><b>金管會 檢查局</b><span>金融監理單位 AI 實戰培訓</span></div></div></section>
 <section class="afeng" id="afeng"><div class="afeng-card">
 <div class="afeng-top"><img class="afeng-av" src="afeng.jpg" alt="阿峰老師（黃敬峰）"><div><div class="afeng-name">阿峰老師（黃敬峰・AI峰哥）</div><div class="afeng-role">企業 AI 實戰培訓專家</div></div></div>
 <p class="afeng-slogan">「會用、懂用、好用、每天用」——讓 AI 變成<b>業務團隊（通訊處）</b>每天在用的工具，不是聽完就忘的演講。</p>
