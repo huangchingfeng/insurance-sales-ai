@@ -109,6 +109,15 @@ main{padding-bottom:30px}
 .logo-wall img:hover{filter:none;opacity:1}
 .cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:12px}
 .case{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px 14px}
+.voices{margin:22px 0 6px}
+.voices-h{font-weight:900;font-size:1.08rem;margin:0 0 4px}
+.voices-sub{color:var(--muted);font-size:.88rem;font-weight:700;margin:0 0 12px}
+.voices-stat{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--dark);font-weight:800;border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:.93rem}
+.voice-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.voice{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:11px;padding:15px 16px}
+.voice p{margin:0 0 9px;font-size:.92rem;line-height:1.62}
+.voice cite{color:var(--muted);font-weight:800;font-size:.82rem;font-style:normal}
+@media(max-width:560px){.voice-grid{grid-template-columns:1fr}}
 .case b{display:block;font-weight:800;margin-bottom:3px;color:var(--ink)}
 .case span{color:var(--muted);font-size:.85rem;font-weight:700}
 .toast{position:fixed;left:50%;transform:translateX(-50%) translateY(12px);bottom:24px;background:#101828;color:#fff;padding:12px 18px;border-radius:9px;font-weight:800;opacity:0;transition:.2s;z-index:50}
@@ -161,6 +170,7 @@ footer a{color:var(--accent);font-weight:800;text-decoration:none}
 </section>
 
 <section class="clients"><div class="clients-h">阿峰老師服務過的保險／金融相關單位</div><div class="clients-sub">同業團隊都在用 AI 加速開發、健診、提案 —— 想讓你的通訊處也上手？往下找老師聊聊。</div><div class="logo-wall"><img src="logos/cathay-life.svg" alt="國泰人壽" loading="lazy"><img src="logos/capital.png" alt="群益投信" loading="lazy"><img src="logos/fsc.png" alt="金管會" loading="lazy"></div><div class="cases"><div class="case"><b>國泰人壽</b><span>昕陽／鴻鑫／羅勝／桃園／中和／土城／宜蘭／昇曜 等 8＋ 通訊處 AI 實戰培訓</span></div><div class="case"><b>群益投信</b><span>投信金融團隊 AI 培訓</span></div><div class="case"><b>金管會 檢查局</b><span>金融監理單位 AI 實戰培訓</span></div></div></section>
+<section class="voices"><div class="voices-h">學員怎麼說</div><div class="voices-sub">取自阿峰老師實際課程的學員見證</div><div class="voice-grid"><div class="voice"><p>「以前只會用 ChatGPT，今天學到深度研究、趨勢分析這些技法。最有感的是——可以先問 AI「這個客戶可能會問什麼」，先演練再上場。」</p><cite>—— 中小企業學員</cite></div><div class="voice"><p>「老師把「AI 是助手、人才是主導」講得很清楚，讓我知道它能做什麼、不能做什麼。我把今天學的帶回公司跟同事開了分享會。」</p><cite>—— 專案管理公司學員</cite></div></div></section>
 <section class="afeng" id="afeng"><div class="afeng-card">
 <div class="afeng-top"><img class="afeng-av" src="afeng.jpg" alt="阿峰老師（黃敬峰）"><div><div class="afeng-name">阿峰老師（黃敬峰・AI峰哥）</div><div class="afeng-role">企業 AI 實戰培訓專家</div></div></div>
 <p class="afeng-slogan">「會用、懂用、好用、每天用」——讓 AI 變成<b>業務團隊（通訊處）</b>每天在用的工具，不是聽完就忘的演講。</p>
